@@ -1,0 +1,36 @@
+{
+    "a+": {
+        "starting_letter": "a",
+        "word": "a+",
+        "length": 2,
+        "user_weighted": 1,
+        "emotion": "Happy"
+    }
+},
+{
+    "abound": {
+        "starting_letter": "a",
+        "word": "abound",
+        "length": 6,
+        "user_weighted": 1,
+        "emotion": "Happy"
+    }
+},
+{
+    "abounds": {
+        "starting_letter": "a",
+        "word": "abounds",
+        "length": 7,
+        "user_weighted": 1,
+        "emotion": "Happy"
+    }
+},
+{
+    "abundance": {
+        "starting_letter": "a",
+        "word": "abundance",
+        "length": 9,
+        "user_weighted": 1,
+        "emotion": "Happy"
+    }
+},

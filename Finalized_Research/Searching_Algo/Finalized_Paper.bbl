@@ -1,0 +1,312 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{plutchik1980general}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=050935e4cfedc32e862f19fc78769796}{%
+           family={Plutchik},
+           familyi={P\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{050935e4cfedc32e862f19fc78769796}
+      \strng{fullhash}{050935e4cfedc32e862f19fc78769796}
+      \strng{bibnamehash}{050935e4cfedc32e862f19fc78769796}
+      \strng{authorbibnamehash}{050935e4cfedc32e862f19fc78769796}
+      \strng{authornamehash}{050935e4cfedc32e862f19fc78769796}
+      \strng{authorfullhash}{050935e4cfedc32e862f19fc78769796}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Theories of emotion}
+      \field{title}{A general psychoevolutionary theory of emotion}
+      \field{year}{1980}
+      \field{pages}{3\bibrangedash 33}
+      \range{pages}{31}
+    \endentry
+    \entry{ekman1999basic}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f57fd5f1b9feec71b7d8f0ce35b57dbc}{%
+           family={Ekman},
+           familyi={E\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2264451b1d0e4a076c364ce7ff6ef834}
+      \strng{fullhash}{2264451b1d0e4a076c364ce7ff6ef834}
+      \strng{bibnamehash}{2264451b1d0e4a076c364ce7ff6ef834}
+      \strng{authorbibnamehash}{2264451b1d0e4a076c364ce7ff6ef834}
+      \strng{authornamehash}{2264451b1d0e4a076c364ce7ff6ef834}
+      \strng{authorfullhash}{2264451b1d0e4a076c364ce7ff6ef834}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Handbook of cognition and emotion}
+      \field{number}{45-60}
+      \field{title}{Basic emotions}
+      \field{volume}{98}
+      \field{year}{1999}
+      \field{pages}{16}
+      \range{pages}{1}
+    \endentry
+    \entry{sorting_algorithm_comparison}{book}{}
+      \name{author}{2}{}{%
+        {{hash=446320c3d264612c44698b976410003b}{%
+           family={Božidar},
+           familyi={B\bibinitperiod},
+           given={Darko},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5ed7c1f858c8bee75a77d9d0e7769b60}{%
+           family={Dobravec},
+           familyi={D\bibinitperiod},
+           given={Tomaž},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Faculty of Computer}%
+        {Information Science, University of Ljubljana, Slovenia}%
+      }
+      \strng{namehash}{41b94d159ce0569a8c607434bb14d272}
+      \strng{fullhash}{41b94d159ce0569a8c607434bb14d272}
+      \strng{bibnamehash}{41b94d159ce0569a8c607434bb14d272}
+      \strng{authorbibnamehash}{41b94d159ce0569a8c607434bb14d272}
+      \strng{authornamehash}{41b94d159ce0569a8c607434bb14d272}
+      \strng{authorfullhash}{41b94d159ce0569a8c607434bb14d272}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparison of parallel sorting algorithms}
+      \field{year}{2015}
+    \endentry
+    \entry{badugu2017emotion}{article}{}
+      \name{author}{2}{}{%
+        {{hash=152b95fcbd4be17f81857f4c467791e4}{%
+           family={Badugu},
+           familyi={B\bibinitperiod},
+           given={Srinivasu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ed78f859dee56aca826d9eb1adfb289a}{%
+           family={Suhasini},
+           familyi={S\bibinitperiod},
+           given={Matla},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Foundation of Computer Science}%
+      }
+      \strng{namehash}{2c538a5d7f01176bc01c703b02fbb35f}
+      \strng{fullhash}{2c538a5d7f01176bc01c703b02fbb35f}
+      \strng{bibnamehash}{2c538a5d7f01176bc01c703b02fbb35f}
+      \strng{authorbibnamehash}{2c538a5d7f01176bc01c703b02fbb35f}
+      \strng{authornamehash}{2c538a5d7f01176bc01c703b02fbb35f}
+      \strng{authorfullhash}{2c538a5d7f01176bc01c703b02fbb35f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Applications}
+      \field{number}{10}
+      \field{title}{Emotion detection on twitter data using knowledge base approach}
+      \field{volume}{162}
+      \field{year}{2017}
+    \endentry
+    \entry{tf_idf_classification}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ededda0b0b9523878c2bcdb3324e6bff}{%
+           family={Qaiser},
+           familyi={Q\bibinitperiod},
+           given={Shahzad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=09c447293ff3568c58c77c0d90941c12}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Ramsha},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4928958f892e2e3343527410e7bc1c5}
+      \strng{fullhash}{b4928958f892e2e3343527410e7bc1c5}
+      \strng{bibnamehash}{b4928958f892e2e3343527410e7bc1c5}
+      \strng{authorbibnamehash}{b4928958f892e2e3343527410e7bc1c5}
+      \strng{authornamehash}{b4928958f892e2e3343527410e7bc1c5}
+      \strng{authorfullhash}{b4928958f892e2e3343527410e7bc1c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Applications}
+      \field{month}{07}
+      \field{title}{Text Mining: Use of TF-IDF to Examine the Relevance of Words to Documents}
+      \field{volume}{181}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.5120/ijca2018917395
+      \endverb
+    \endentry
+    \entry{binary_searches}{book}{}
+      \name{author}{1}{}{%
+        {{hash=223fdbbf03dcbc8f9b486195befc6013}{%
+           family={Riski\bibnamedelimb Muhamad\bibnamedelima Fitrian},
+           familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={et\bibnamedelima al},
+           giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           suffix={Insan\bibnamedelima Taufik},
+           suffixi={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Journal of Physics: Conference Series}%
+      }
+      \strng{namehash}{223fdbbf03dcbc8f9b486195befc6013}
+      \strng{fullhash}{223fdbbf03dcbc8f9b486195befc6013}
+      \strng{bibnamehash}{223fdbbf03dcbc8f9b486195befc6013}
+      \strng{authorbibnamehash}{223fdbbf03dcbc8f9b486195befc6013}
+      \strng{authornamehash}{223fdbbf03dcbc8f9b486195befc6013}
+      \strng{authorfullhash}{223fdbbf03dcbc8f9b486195befc6013}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Dictionary Using Binary Search Algorithm}
+      \field{year}{2019}
+    \endentry
+    \entry{suhasini2020emotion}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=ed78f859dee56aca826d9eb1adfb289a}{%
+           family={Suhasini},
+           familyi={S\bibinitperiod},
+           given={Matla},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8357cd8ef9df20f80062979cbf90bfc4}{%
+           family={Srinivasu},
+           familyi={S\bibinitperiod},
+           given={Badugu},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f58e6ab170c37db4f232bac9796be08f}
+      \strng{fullhash}{f58e6ab170c37db4f232bac9796be08f}
+      \strng{bibnamehash}{f58e6ab170c37db4f232bac9796be08f}
+      \strng{authorbibnamehash}{f58e6ab170c37db4f232bac9796be08f}
+      \strng{authornamehash}{f58e6ab170c37db4f232bac9796be08f}
+      \strng{authorfullhash}{f58e6ab170c37db4f232bac9796be08f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Data Engineering and Communication Technology: Proceedings of 3rd ICDECT-2K19}
+      \field{title}{Emotion detection framework for twitter data using supervised classifiers}
+      \field{year}{2020}
+      \field{pages}{565\bibrangedash 576}
+      \range{pages}{12}
+    \endentry
+    \entry{sentiment_analysis}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9eaa9de216ce55435aabf0ac10d7a348}{%
+           family={Nandwani\bibnamedelima P},
+           familyi={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Verma\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9eaa9de216ce55435aabf0ac10d7a348}
+      \strng{fullhash}{9eaa9de216ce55435aabf0ac10d7a348}
+      \strng{bibnamehash}{9eaa9de216ce55435aabf0ac10d7a348}
+      \strng{authorbibnamehash}{9eaa9de216ce55435aabf0ac10d7a348}
+      \strng{authornamehash}{9eaa9de216ce55435aabf0ac10d7a348}
+      \strng{authorfullhash}{9eaa9de216ce55435aabf0ac10d7a348}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{"A review on sentiment analysis and emotion detection from text."}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1007/s13278-021-00776-6
+      \endverb
+      \keyw{"Emotion detection,Sentiment analysis,Text mining,Text processing"}
+    \endentry
+    \entry{ortony2022cognitive}{book}{}
+      \name{author}{3}{}{%
+        {{hash=362a50ffcdbd6d9f530b8f7b29844467}{%
+           family={Ortony},
+           familyi={O\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=17a1cd89db7e923a29d0958c29fe22bf}{%
+           family={Clore},
+           familyi={C\bibinitperiod},
+           given={Gerald\bibnamedelima L},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f81dbc70a401559ebbd08b8d5f484286}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{3f2d5abd83b240f18344365bfbbf394f}
+      \strng{fullhash}{3f2d5abd83b240f18344365bfbbf394f}
+      \strng{bibnamehash}{3f2d5abd83b240f18344365bfbbf394f}
+      \strng{authorbibnamehash}{3f2d5abd83b240f18344365bfbbf394f}
+      \strng{authornamehash}{3f2d5abd83b240f18344365bfbbf394f}
+      \strng{authorfullhash}{3f2d5abd83b240f18344365bfbbf394f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The cognitive structure of emotions}
+      \field{year}{2022}
+    \endentry
+    \entry{ascii_reference}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b87f90dc7025b2cd945d823b8ccaed62}{%
+           family={://www.injosoft.se},
+           familyi={:\bibinitperiod},
+           prefix={http},
+           prefixi={h\bibinitperiod}}}%
+      }
+      \strng{namehash}{b87f90dc7025b2cd945d823b8ccaed62}
+      \strng{fullhash}{b87f90dc7025b2cd945d823b8ccaed62}
+      \strng{bibnamehash}{b87f90dc7025b2cd945d823b8ccaed62}
+      \strng{authorbibnamehash}{b87f90dc7025b2cd945d823b8ccaed62}
+      \strng{authornamehash}{b87f90dc7025b2cd945d823b8ccaed62}
+      \strng{authorfullhash}{b87f90dc7025b2cd945d823b8ccaed62}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A. ASCII Code - The extended ASCII table}
+      \field{volume}{https://www.ascii-code.com/.}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

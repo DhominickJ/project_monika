@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Finalized_Paper.blg'
+[196] biber-MSWIN32:340> INFO - === 
+[278] Biber.pm:418> INFO - Reading 'Finalized_Paper.bcf'
+[456] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[477] Biber.pm:4383> INFO - Processing section 0
+[493] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[614] bibtex.pm:1713> INFO - LaTeX decoding ...
+[646] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[751] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[751] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[751] Biber.pm:4203> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[751] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[765] bbl.pm:654> INFO - Writing 'Finalized_Paper.bbl' with encoding 'UTF-8'
+[770] bbl.pm:757> INFO - Output to Finalized_Paper.bbl
+[770] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\sycro\AppData\Local\Temp\biber_tmp_7SVI\33e59b5ca9ec342068223d604c3f8d55_13156.utf8, line 9, warning: 1 characters of junk seen at toplevel
+[771] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\sycro\AppData\Local\Temp\biber_tmp_7SVI\33e59b5ca9ec342068223d604c3f8d55_13156.utf8, line 15, warning: 1 characters of junk seen at toplevel
+[771] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\sycro\AppData\Local\Temp\biber_tmp_7SVI\33e59b5ca9ec342068223d604c3f8d55_13156.utf8, line 20, warning: 1 characters of junk seen at toplevel
+[771] Biber.pm:132> INFO - WARNINGS: 3

@@ -1,0 +1,3 @@
+The dataset ontology is the building block of a model and helps define the information applied to data to represent the knowledge models that are then trained to inference. (like classes) are the names used for classifying annotations. allow additional independent degrees of freedom to define labels.
+This is an example of a text with different annotations.
+This is to test the data with the different classification.

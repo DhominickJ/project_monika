@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\title{Emotional Classification}
+\author{Billena, Dhominick John, Constantino, Els Dave, Torre, Jephone, Artacho, Cristopher Ian}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[backend=biber, style=numeric, sorting=ynt]{biblatex}
+\usepackage{indentfirst}
+\usepackage{multicol}
+\addbibresource{references.bib}
+\begin{document}
+    \maketitle
+    \section*{Introduction}
+    \par People are becoming more interested in detecting emotions in text because of its potential uses, such as in machine learning where words are classified based on their emotional content. This article discusses the advancements in emotion detection and emphasizes the need for improvements in the design and structure of current systems.
+
+    Even though many techniques, methods, and models have been created for emotion detection, the intricate nature of human emotions and the subtle and metaphorical ways we express them indicate that we need to go beyond traditional methods. To truly understand these complexities, we need to pay attention to the language challenges of expressing emotions when we’re classifying words based on their emotional content in machine learning. \cite{emotional_research}
+    \section*{Emotional Models for Emotion Classification}
+    \par It talks about two main ways to identify emotions from text: Discrete Emotion Models (DEMs) and Dimensional Emotion Models (DiEMs).DEMs are models that put emotions into specific categories. Some well-known DEMs are by Paul Ekman, Robert Plutchik, and Orthony, Clore, and Collins. Ekman and Plutchik focus on a few basic emotions, while the OCC model includes many more types of emotions.
+    \par On the other hand, DiEMs represent emotions in two or three dimensions. Examples of these models are Russell’s Circumplex Model of Affect, Plutchik’s Wheel of Emotions, and Russell and Mehrabian’s 3-Dimensional Emotion Model. These models offer a more complex view of emotions, which is built on the idea of discrete emotions. \cite{emotional_research}]s
+    \subsection*{Smaller Set of Primary Emotions}
+    \par The first models are based on the idea that there are a smaller set of primary emotions that are universal and can be used to describe all other emotions. 
+    \subsection*{Paul Ekman's Model}
+    \par The Paul Ekman model, which identifies six fundamental emotions: happiness, sadness, anger, disgust, surprise, and fear. These emotions are believed to originate from separate neural systems based on an individual's perception of a situation. Additionally, the combination of these emotions can give rise to complex emotions like guilt, shame, pride, lust, and greed. \cite{ekman1999basic}
+    \subsection*{Robert Plutchik's Model}
+    \par The Robert Plutchik model, similar to Ekman's model, posits that there are primary emotions that occur in opposite pairs and can combine to form complex emotions. Plutchik identifies eight primary emotions, including joy, sadness, trust, disgust, anger, fear, surprise, and anticipation. He also acknowledges varying degrees of intensity for each emotion, depending on how events are perceived. \cite{plutchik1980general}
+    \subsection*{Orthony, Clore, and Collins Model}
+    \par The Orthony, Clore, and Collins (OCC) model offers a different perspective. It disagrees with the concept of "basic emotions" but agrees that emotions are influenced by how individuals interpret events and can vary in intensity. OCC discretizes emotions into 22 categories, expanding on Ekman's basic emotions with additional classes such as relief, envy, reproach, self-reproach, and appreciation.\cite{ortony2022cognitive}
+    \\
+    \par It talks about two main ways to identify emotions from text: Discrete Emotion Models (DEMs) and Dimensional Emotion Models (DiEMs).
+
+    DEMs are models that put emotions into specific categories. Some well-known DEMs are by Paul Ekman, Robert Plutchik, and Orthony, Clore, and Collins. Ekman and Plutchik focus on a few basic emotions, while the OCC model includes many more types of emotions.
+
+    On the other hand, DiEMs represent emotions in two or three dimensions. Examples of these models are Russell’s Circumplex Model of Affect, Plutchik’s Wheel of Emotions, and Russell and Mehrabian’s 3-Dimensional Emotion Model. These models offer a more complex view of emotions, which is built on the idea of discrete emotions. \cite{emotional_research}
+    \subsection*{Current Emotion Detection Systems}
+    \par Badugu and Suhasini used a rule-centered approach to detect emotions in tweets. They used the Sentiment140 dataset, which contains over a million tweets. After processing the tweets and tagging them with parts-of-speech, they matched the texts with emotions on the Russell’s Circumplex Model of Affect. Texts that passed a validation check were assigned a sentiment score and classified into one of four emotion classes. Their model achieved an accuracy of about \textbf{85\%}, but it had some limitations. It only considered the “not” form of negation and ignored other forms like “never”. It also classified a large number of tweets into a limited number of classes, which could lead to inaccurate classifications. Furthermore, it ignored emojis, which can convey rich emotion content.\cite{badugu2017emotion}
+    \par Wikarsa and Thahir developed an app to detect the emotions of Twitter users. They collected 105 tweets using the Twitter API and preprocessed them by converting to lowercase, removing stop words, mentions, URLs, and converting emoticons into text. They used the Naive Bayes (NB) method to classify the texts into six emotions: happiness, sadness, fear, anger, surprise, and disgust. They used 10-fold cross-validation to check the accuracy of their classifications and reported an accuracy of \textbf{83\%}. However, they suggested that using a larger training dataset and removing duplicate tweets could improve the system’s performance. They also suggested that using other classification methods like Support Vector Machines (SVMs) and K-nearest neighbors (KNN) could enhance the performance.
+    \par Huang and his team used a four-part Episodal Memory Network (EMN) with a Self-Attention (SA) mechanism to identify emotions from text. They used the SemEval Dataset to detect four basic emotions: anger, fear, joy, and sadness. Their results showed that EMN performed better than other machine learning techniques like CNN, TLSTM, and RNN. When they combined EMN with SA, it did even better at understanding text and detecting emotions, with a precision of 65.8\%, a recall of 63.5\%, and an F1 score of 64.6\%. However, their model could only detect a limited number of emotion categories, which could be a challenge for generalizing the model.
+    \par In relation to the previous study recommendations made by Wikarsa and Thahir, we can use a larger dataset to improve the performance of our model. We can also use other classification methods like SVMs and KNN to enhance the performance. We can also use a larger dataset to improve the performance of our model. We can also use other classification methods like SVMs and KNN to enhance the performance however,Matla and Badugu conducted a study where they compared the performance of K-Nearest Neighbors (K-NN) and Naive Bayes (NB) machine learning techniques in detecting emotions from tweets. They used the Sentiment 140 corpus for their study. Their results showed that under the same conditions, NB performed better than K-NN, achieving an accuracy of 72.06\% compared to K-NN’s 55.50\%. \cite{suhasini2020emotion}
+    \par To verify this results, we have tried to replicate the process presented here by Matla and Badugu. We used the same dataset and the same preprocessing techniques. We also used the same features and the same training and testing sets. However, we used the K-NN and NB classifiers from implementing them from scratch. We also used the same metrics to evaluate the performance of the classifiers speicifically on the results related to the K-NN model.
+    
+    \par A new concept presented by 
+    % \begin{math}
+    %     for j  1 to No. of Nodes [Ontology]
+    %     do parent [j]  parent of node j
+    %     child [j]  child of node j
+    %     for m 1 to No. of Nodes [Ontology]
+    %     do freq [m]  frequency of occurrence of mth
+    %     depth [m]  depth of mth node in ontology 
+    %     Calculate (x):
+    %     for m 1 to No. of Nodes [Ontology]
+    %     score (x)  freq [root] / depth [root]
+    %     for m  1 to No. of parent nodes [Ontology]
+    %     score (parent) = score (parent) + score (child)
+    %     return score (parent)
+    %     for m -> 1 to No. of parent nodes [ontology]
+    %     emotion class  High score [parent]
+    %     return emotion class.
+    % \end{math}
+    \medskip
+    \printbibliography[title={References}]
+\end{document}

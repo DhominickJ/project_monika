@@ -1,0 +1,22 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Compiled Searching Algorithm.blg'
+[167] biber-MSWIN32:340> INFO - === 
+[236] Biber.pm:418> INFO - Reading 'Compiled Searching Algorithm.bcf'
+[431] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
+[454] Biber.pm:4383> INFO - Processing section 0
+[472] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[596] bibtex.pm:1713> INFO - LaTeX decoding ...
+[609] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[671] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[671] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[671] Biber.pm:4203> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[671] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[673] bbl.pm:654> INFO - Writing 'Compiled Searching Algorithm.bbl' with encoding 'UTF-8'
+[674] bbl.pm:757> INFO - Output to Compiled Searching Algorithm.bbl
+[674] Biber.pm:130> WARN - I didn't find a database entry for 'sorting_algorithm' (section 0)
+[674] Biber.pm:130> WARN - I didn't find a database entry for 'sorting_algorithm_comparison' (section 0)
+[674] Biber.pm:130> WARN - I didn't find a database entry for 'ascii_reference' (section 0)
+[675] Biber.pm:130> WARN - I didn't find a database entry for 'linear_search' (section 0)
+[675] Biber.pm:130> WARN - I didn't find a database entry for 'binary_search' (section 0)
+[675] Biber.pm:130> WARN - I didn't find a database entry for 'word_searching' (section 0)
+[675] Biber.pm:132> INFO - WARNINGS: 6
